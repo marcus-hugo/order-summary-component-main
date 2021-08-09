@@ -144,6 +144,10 @@ main .payment-container {
   span {
     justify-self: start;
   }
+
+  .proceed-button {
+    width: 350px;
+  }
 }
 .attribution {
   font-size: 11px;
