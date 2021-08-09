@@ -7,7 +7,7 @@
 
 body {
   background-color: #e0e8ff;
-  background-image: url(images/pattern-background-mobile.svg);
+  background-image: url("images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -78,6 +78,12 @@ span {
   align-self: center;
 }
 
+.change:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #7867ee;
+}
+
 main .payment-container {
   display: flex;
   flex-direction: column;
@@ -97,6 +103,12 @@ main .payment-container {
   filter: drop-shadow(0px 15px 5px #e0e8ff);
 }
 
+.proceed-button:hover {
+  cursor: pointer;
+  background-color: #7867ee;
+  filter: drop-shadow(0px 15px 5px #e0e8ff);
+}
+
 .cancel-order {
   display: block;
   margin-top: 20px;
@@ -107,9 +119,13 @@ main .payment-container {
   color: #7280a7;
 }
 
+.cancel-order:hover {
+  color: #1f2f56;
+}
+
 @media (min-width: 376px) {
   body {
-    background-image: url(images/pattern-background-desktop.svg);
+    background-image: url("images/pattern-background-desktop.svg");
     background-size: contain;
     max-width: 1440px;
   }
