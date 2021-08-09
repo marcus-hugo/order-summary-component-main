@@ -7,6 +7,8 @@
 
 body {
   background-color: #e0e8ff;
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -105,6 +107,44 @@ main .payment-container {
   color: #7280a7;
 }
 
+@media (min-width: 376px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: contain;
+    max-width: 1440px;
+  }
+
+  main h1 {
+    margin-top: 40px;
+    font-size: 28px;
+  }
+
+  main p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  main {
+    max-width: 450px;
+  }
+
+  main .hero-container {
+    height: 220px;
+  }
+
+  main .plan-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h3 {
+    justify-self: start;
+  }
+
+  span {
+    justify-self: start;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
