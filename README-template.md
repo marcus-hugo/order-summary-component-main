@@ -49,7 +49,7 @@ query.
 
 ### What I learned
 Used SCSS with the terminal to watch for file changes. Practiced variables for colors and nesting with
-& and @at-atroot.
+& and @at-root.
 
 ### Continued development
 To practice the other basics of SASS like partials and mixins.
