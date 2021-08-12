@@ -26,15 +26,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](Screenshot 2021-08-09 at 10-19-17 Frontend Mentor Order summary card.png)
+![](Screenshot-frontend-mentor-order-summary-card.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/marcus-hugo/order-summary-component-main](https://your-solution-url.com)
+- Live Site URL: [https://marcus-hugo.github.io/order-summary-component-main/](https://your-live-site-url.com)
 
 ## My process
-
+Began with mobile first, then switched to desktop layout at the media
+query.
 ### Built with
 
 - Semantic HTML5 markup
@@ -47,10 +48,11 @@ Users should be able to:
 
 
 ### What I learned
-
+Used SCSS with the terminal to watch for file changes. Practiced variables for colors and nesting with
+& and @at-atroot.
 
 ### Continued development
-
+To practice the other basics of SASS like partials and mixins.
 
 ### Useful resources
 
@@ -58,7 +60,7 @@ Users should be able to:
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@marcus-hugo](https://www.frontendmentor.io/profile/yourusername)
 
 
 ## Acknowledgments
