@@ -62,7 +62,7 @@ main .plan-container {
   justify-self: center;
 }
 
-h3 {
+h2 {
   grid-area: 1/2/3/3;
   color: #1f2f56;
   display: inline;
@@ -153,7 +153,7 @@ main .payment-container {
     margin-right: 50px;
   }
 
-  h3 {
+  h2 {
     justify-self: start;
   }
 
