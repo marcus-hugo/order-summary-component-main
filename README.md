@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](Screenshot-frontend-mentor-order-summary-card.png)
+![](screenshot.png)
 
 ### Links
 
